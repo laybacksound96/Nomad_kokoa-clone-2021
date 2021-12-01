@@ -1,0 +1,30 @@
+.status-bar {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-form__inputForm {
+  border: none;
+  border-bottom: 1px solid lightslategray;
+  font-size: 120%;
+  margin: 5px;
+}
+.login-form__button {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px;
+}
