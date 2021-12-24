@@ -1,5 +1,7 @@
 @import "reset.css";
-@import "status-bar.css";
 @import "welcome-header.css";
-@import "login-form.css";
 @import "variables.css";
+/*screen*/
+@import "screen/login-form.css";
+/*component*/
+@import "component/status-bar.css";
